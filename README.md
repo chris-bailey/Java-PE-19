@@ -1,5 +1,5 @@
 ## Project Euler #19 - Counting the Sundays ##
-Java solution to Project Euler #19, as explained in detail on my [website](http://chrisbaileydeveloper.com/projects).
+Java solution to Project Euler #19, as explained in detail on my [website](http://chrisbaileydeveloper.com/projects/project-euler-19/).
 
 ## Steps to set up development environment in Eclipse ##
 1. **Download** or clone the project from GitHub.  
