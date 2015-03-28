@@ -1,6 +1,4 @@
-Project Euler #19
-=================
-## Counting the Sundays ##
+## Project Euler #19 - Counting the Sundays ##
 Java solution to Project Euler #19, as explained in detail on my [website](http://chrisbaileydeveloper.com/projects).
 
 ## Steps to set up development environment in Eclipse ##
@@ -13,10 +11,10 @@ Java solution to Project Euler #19, as explained in detail on my [website](http:
 4.	File -> Import -> Maven -> **Existing Maven Projects** (Navigate to folder and import)  
 
 ### src/main/java ###
-The Main class in the com.chrisbaileydeveloper.pe19 package holds the solution.
+The **Main** class in the com.chrisbaileydeveloper.pe19 package holds the solution.
 
 ### src/test/java ###
-The MainTest class in the com.chrisbaileydeveloper.pe19 package holds the JUnit test cases.
+The **MainTest** class in the com.chrisbaileydeveloper.pe19 package holds the JUnit test cases.
 
 ### Development environment ###
 Windows 7 64bit, Eclipse Java EE IDE Luna 4.4.1, Maven 3.1.0
