@@ -4,7 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Project Euler #19 - Counting Sundays
+ * <h2>Project Euler #19 - Counting Sundays</h2>
+ *   
+ * How many Sundays fell on the first of the month 
+ * during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
  * 
  * @author Chris Bailey
  */
@@ -15,7 +18,11 @@ public class Main {
 	public static void main(String[] args) {
 		int numberSundays = countSundays(31, "Dec", 2000) - countSundays(1, "Jan", 1901);
 
-		System.out.println("Number of Sundays: " + numberSundays);
+		System.out.println("How many Sundays fell on the first of the month \n"
+				+ "during the twentieth century (1 Jan 1901 to 31 Dec 2000)?\n");
+		
+		System.out.println("Exactly " + numberSundays + " Sundays fell on the first"
+				+ " of the month during that time period.");
 	}
 
 	/**
