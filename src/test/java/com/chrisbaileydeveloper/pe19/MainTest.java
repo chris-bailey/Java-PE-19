@@ -1,11 +1,8 @@
 package com.chrisbaileydeveloper.pe19;
 
 import static org.junit.Assert.assertTrue;
-
 import java.util.Map;
-
 import org.junit.Test;
-
 import com.chrisbaileydeveloper.pe19.Main;
 
 public class MainTest {

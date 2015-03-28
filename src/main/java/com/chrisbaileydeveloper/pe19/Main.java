@@ -16,13 +16,13 @@ public class Main {
 	static final Map<String, Integer> dateMap = populateDateMap();
 
 	public static void main(String[] args) {
-		int numberSundays = countSundays(31, "Dec", 2000) - countSundays(1, "Jan", 1901);
+		int numSundays = countSundays(31,"Dec",2000) - countSundays(1,"Jan",1901);
 
 		System.out.println("How many Sundays fell on the first of the month \n"
 				+ "during the twentieth century (1 Jan 1901 to 31 Dec 2000)?\n");
 		
-		System.out.println("Exactly " + numberSundays + " Sundays fell on the first"
-				+ " of the month during that time period.");
+		System.out.println("Exactly " + numSundays + " Sundays fell on "
+				+ "the first of the month during that time period.");
 	}
 
 	/**
@@ -64,7 +64,8 @@ public class Main {
 		int monthLength = numberOfDays(month, year);
 
 		// While current date is less than the chosen date.
-		// Check if month is greater within current year, or if year has incremented.
+		// Check if month is greater within current year,
+		// Or if the year has incremented.
 		while (!(month > finalMonth && year == finalYear) && !(year > finalYear)) {
 			
 			// Check if it is Sunday.
